@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "multi-app-project",
+    "slug": "multi-app-project",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./shared/assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./shared/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./shared/assets/images/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./shared/assets/images/favicon.png"
+    }
+  }
+}
